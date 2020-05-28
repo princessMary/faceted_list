@@ -98,14 +98,12 @@ div.rows {
 
 // var input = document.getElementById("myText");
 // input.addEventListener("keyup", function(event) {
-//    if (event.keyCode === 13) {
-//     event.preventDefault();
-//     document.getElementById("mybutton").click();
-//     plot();
-//     junk();
-//     print_list();
-//    }
-//  });
+//   if (event.keyCode === 13) {
+//    event.preventDefault();
+//    document.getElementById("mybutton").click();
+//    junk();
+//   }
+// });
 
 function plot() {
   // var listed_text = getList();
@@ -179,7 +177,7 @@ function plot() {
       }
     }
   }
-  plot();
+
   // var items = sort_object(sanakirja);
   var items = sanakirja;
 
@@ -214,7 +212,7 @@ function plot() {
   wrapper.innerHTML = myHTML;
 
 }
-
+plot();
 
 function sort_object(obj) {
     items = Object.keys(obj).map(function(key) {
