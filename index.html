@@ -97,13 +97,13 @@ div.rows {
 <script>
 
 // var input = document.getElementById("myText");
-// input.addEventListener("keyup", function(event) {
-//   if (event.keyCode === 13) {
-//    event.preventDefault();
-//    document.getElementById("mybutton").click();
-//    junk();
-//   }
-// });
+input.addEventListener("keyup", function(event) {
+   if (event.keyCode === 13) {
+    event.preventDefault();
+    document.getElementById("mybutton").click();
+    plot();
+   }
+ });
 
 function plot() {
   // var listed_text = getList();
