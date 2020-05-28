@@ -102,6 +102,8 @@ input.addEventListener("keyup", function(event) {
     event.preventDefault();
     document.getElementById("mybutton").click();
     plot();
+    junk();
+    print_list();
    }
  });
 
@@ -177,7 +179,7 @@ function plot() {
       }
     }
   }
-
+  plot();
   // var items = sort_object(sanakirja);
   var items = sanakirja;
 
